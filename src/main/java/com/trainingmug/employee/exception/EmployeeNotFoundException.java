@@ -2,11 +2,8 @@ package com.trainingmug.employee.exception;
 
 public class EmployeeNotFoundException extends Exception {
 
-   /*
-    Copy the necessary code from the previous lab
-    */
+    public EmployeeNotFoundException(String msg) {
+        super(msg);
+    }
 
-   /*
-   Implement the code as per the lab requirement
-   */
 }
