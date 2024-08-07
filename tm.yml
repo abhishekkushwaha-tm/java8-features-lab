@@ -2,6 +2,4 @@ capstoneId: 2 # This is the id of the capstone
 capstoneName:  Web Development # This is the name of the capstone
 scripts:
   run: mvn run
-  build: bun run build
-  start: bun run start
   test: mvn test
