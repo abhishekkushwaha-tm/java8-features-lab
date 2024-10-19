@@ -2,11 +2,8 @@ package com.trainingmug.employee.exception;
 
 public class InvalidBankAccountException extends Exception {
 
-    /*
-    Copy the necessary code from the previous lab
-    */
+    public InvalidBankAccountException(String message) {
+        super(message);
+    }
 
-   /*
-   Implement the code as per the lab requirement
-   */
 }
